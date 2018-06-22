@@ -18,7 +18,7 @@
 			<?php 
 			$args = array(
 			'post_type'         => 'post',
-			'posts_per_page'    => 10,
+			'posts_per_page'    => 3,
 			'cat' => '-6'
 			
 			);
@@ -31,7 +31,14 @@
 					
 
 			<?php
+			
+			
+			posts_nav_link('separator','prelabel','nextlabel');	
+			
 			endwhile; //resetting the page loop
+			
+					
+			
 			else :
 			//wp_reset_query(); //resetting the page query
 			?>

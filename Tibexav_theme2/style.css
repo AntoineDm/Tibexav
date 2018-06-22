@@ -104,18 +104,7 @@ div .wpcf7
 
 
 /************************REals*****************************/
-.photoReal
-{
-	grid-area: photo;
-	background-color:red;
-}
 
-.cont_Tibexav
-{
-	
-	grid-area: resume;
-	background-color:yellow;
-}
 
 
 
@@ -126,12 +115,21 @@ div .wpcf7
 	margin-right:auto;
 	display:grid;
 	
-	grid-template-rows:auto;
-	grid-template-columns:15% 20% auto 15%;
-	grid-template-areas:/* "truc truc truc truc" */
-						". photo resume ."
-						/* "truc truc truc truc" */
-						". photo resume .";
-	
+	grid-template-rows:30%;
+	grid-template-columns:25% 75%;
 	
 }
+
+
+.photoReal
+{
+	background-color:red;
+}
+
+.cont_Tibexav
+{
+	
+	background-color:yellow;
+}
+
+
