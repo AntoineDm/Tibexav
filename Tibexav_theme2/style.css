@@ -1,5 +1,7 @@
 body
 {
+	
+	overflow:hidden;
 }
 
 img.fullCover
@@ -13,6 +15,7 @@ img.fullCover
 img.fullCoverTop
 {
 	width:100%;
+	z-index:-1;
 }
 
 
@@ -30,9 +33,27 @@ img.fullCoverTop
 	font-size: 5em;
 	font-weight: bolder;
 	color:black;
- }
+	
+}
+
+#mainAccueil_Tibexav
+{
+	text-shadow: 2px 2px 2px #999999;
+}
 
 
+.titleOnPosts
+{
+	font-family: 'Vibur', cursive;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;	
+	margin-top:2em;
+	font-size: 2.5em;
+	font-weight: bolder;
+	color:black;
+	
+}
 
 .Tibexav_menuClass ul
 {
@@ -42,6 +63,10 @@ img.fullCoverTop
 	padding-left:0;
 }
 
+.titleOnPosts a
+{
+	text-shadow: 2px 2px 2px #999999;
+}
 
 a
 {
@@ -61,26 +86,6 @@ a
 	text-decoration: underline;
 }
 
-
-.titleOnPosts
-{
-	font-family: 'Vibur', cursive;
-	width:65%;
-	margin-left:auto;
-	margin-right:auto;	
-	margin-top:2em;
-	font-size: 2.5em;
-	font-weight: bolder;
-	color:black;
-	
-}
-
-hr {
-    display: block;
-    height: 0.2em;
-    border: 0;
-    border-top: 0.1em solid #000000;
-}
 
 
 /* *********contact***************/
@@ -110,26 +115,30 @@ div .wpcf7
 
 #dv_reals_Tibexav
 {
+	position:absolute;
+	top:23%;
+	left:21%;
 	width:60%;
 	margin-left:auto;
 	margin-right:auto;
 	display:grid;
 	
-	grid-template-rows:30%;
+	grid-template-rows:30%;	
 	grid-template-columns:25% 75%;
+	grid-column-gap:2%;
+	grid-row-gap:5%;
 	
 }
 
 
 .photoReal
 {
-	background-color:red;
+	background-color:black;
+	padding:0.5%;
 }
 
 .cont_Tibexav
 {
-	
-	background-color:yellow;
 }
 
 

@@ -10,19 +10,16 @@ function TibexavScripts()
 
 function register_my_menu() {
   register_nav_menu('MenuPpal_TibeXav',__( 'Menu Principal Tibexav' ));
-}
-
-
-
+ }
 
 
 add_action( 'init', 'register_my_menu' );
 add_action('wp_enqueue_scripts','TibexavScripts');
 add_filter('show_admin_bar', '__return_false');
 
-
-
-
+if ( function_exists( 'add_theme_support' ) ) {
+  add_theme_support( 'post-thumbnails' );
+}
 			
             
 

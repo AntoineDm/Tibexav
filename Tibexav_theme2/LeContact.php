@@ -4,6 +4,7 @@
 
 
 <?php get_header(); ?>
+<img src=<?php echo get_template_directory_uri() . "/assets/images/Fd_Tibexav_crop.png" ?> class="fullCover"/>
 <div id="titre" class="titleOnPosts">
     <a href="<?php echo home_url();?>">l'atelier nature</a>
     
