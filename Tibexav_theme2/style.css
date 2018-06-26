@@ -1,7 +1,10 @@
-body
-{
-	
-	overflow:hidden;
+
+html { 
+ /*  margin:0;
+  padding:0;
+  background: url(image/bg.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari 
+  background-size: cover;  version standardisée */ 
 }
 
 img.fullCover
@@ -14,9 +17,16 @@ img.fullCover
 
 img.fullCoverTop
 {
-	width:100%;
-	z-index:-1;
+	min-width:100%;
 }
+
+#div_imgCropTop
+{
+	height:15vh;
+	width:100%;
+	overflow:hidden;
+}
+
 
 
 
@@ -36,16 +46,25 @@ img.fullCoverTop
 	
 }
 
+.Tibexav_menuClass ul
+{
+	list-style:none;
+	display: flex;
+	justify-content: center;
+	padding-left:0;
+}
+
 #mainAccueil_Tibexav
 {
 	text-shadow: 2px 2px 2px #999999;
 }
 
 
+
 .titleOnPosts
 {
 	font-family: 'Vibur', cursive;
-	width:60%;
+	width:57%;
 	margin-left:auto;
 	margin-right:auto;	
 	margin-top:2em;
@@ -55,13 +74,7 @@ img.fullCoverTop
 	
 }
 
-.Tibexav_menuClass ul
-{
-	list-style:none;
-	display: flex;
-	justify-content: center;
-	padding-left:0;
-}
+
 
 .titleOnPosts a
 {
@@ -86,15 +99,36 @@ a
 	text-decoration: underline;
 }
 
+#social_Tibexav
+{
+	width:15%;
+	float:right;
+	margin-right:15%;
+	margin-top:15%;
+}
 
 
 /* *********contact***************/
 
 div .wpcf7
 {
+	font-family: 'Oswald', sans-serif;
 	width:50%;
 	margin-left:auto;
 	margin-right:auto;
+	font-size:1.1em;
+}
+
+div .wpcf7 textarea
+{
+	width:80%;
+}
+div .wpcf7-submit
+{
+	width:20%;
+	height:2.2em;
+	float:right;
+	margin-right:20%;
 }
 
 
@@ -102,9 +136,10 @@ div .wpcf7
 
 #TibeXav_MainSingle
 {
-	width:65%;
+	width:80%;
 	margin-left:auto;
 	margin-right:auto;
+	padding:5%;
 }
 
 
@@ -115,27 +150,25 @@ div .wpcf7
 
 #dv_reals_Tibexav
 {
+	font-family: 'Oswald', sans-serif;
 	position:absolute;
-	top:23%;
-	left:21%;
-	width:60%;
-	margin-left:auto;
-	margin-right:auto;
+	top:20%;
+	left:25.75%;
+	width:40%;
 	display:grid;
 	
 	grid-template-rows:30%;	
-	grid-template-columns:25% 75%;
-	grid-column-gap:2%;
-	grid-row-gap:5%;
+	grid-template-columns:20% 80%;
+	grid-column-gap:21.5%;
+	grid-row-gap:6vh;
 	
 }
 
 
 .photoReal
 {
-	background-color:black;
-	padding:0.5%;
 }
+
 
 .cont_Tibexav
 {

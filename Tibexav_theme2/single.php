@@ -3,18 +3,17 @@
  * The template for displaying all single posts and attachments
  *
  * @package WordPress
- * @subpackage Tiebxav
- */
-
- 
- 
+ * @subpackage Tibexav
+ */ 
  
 get_header(); ?>
-<img src=<?php echo get_template_directory_uri() . "/assets/images/Fd_Tibexav_crop.png" ?> class="fullCoverTop"/>
+
+<div id="div_imgCropTop">
+	<img src=<?php echo get_template_directory_uri() . "/assets/images/Fd_Tibexav_cropTop.png" ?> class="fullCoverTop"/>
+</div>
 
 <div id="titre" class="titleOnPosts">
-    <a href="<?php echo home_url();?>">l'atelier nature</a>
-    
+    <a href="<?php echo home_url();?>">l'atelier nature</a>    
 </div>
 
 	<div id="TibeXav_MainSingle">

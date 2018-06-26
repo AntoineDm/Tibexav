@@ -12,27 +12,27 @@ jQuery(document).ready(function($){
 	$('.Tibexav_menuClass').click(
 		function()
 		{	
-		$('#mainAccueil_Tibexav').animate(
-		{'font-size':'600%'},2500, function()
-			{
-				//lorsque l'anim est finie
-				window.location.replace($(this).find('a').attr('href'));
-			})
+			// $('#mainAccueil_Tibexav').animate(
+			// {'font-size':'800%'},1800, function()
+			// 	{
+                // event.preventDefault() ;
+                // $('#imgToZoom2').addClass('zoomed');
+                // $("#imgToZoom2").bind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){
+
+					//lorsque l'anim est finie
+				 // window.location.replace($(this).find('a').attr('href'));
+                 // });
+				// })
+			// $('#imgToZoom').animate(
+			// {'width':'90%', 'height':'90%', 'top':'10%', 'left':'10%'},1800)
+
 			
 		});
  
 }); 
 
 
-// function animFoufou()
-// {
-	// jQuery("#div_IdRech").animate(
-		// {'width' : '-=7000px','height' : '-=210px', 'left' : '+=25%'}, 600, function()
-			// {
-				// //lorsque l'anim est finie
-				// jQuery("#div_IdRech").toggleClass("div_IdRech_Fixed div_IdRech_PasFixed" );
-			// });
-// }
+
 
 
 

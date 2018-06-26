@@ -31,14 +31,17 @@
 		// TO SHOW THE PAGE CONTENTS
 		if (have_posts() ) : while (have_posts() ) : the_post(); ?> 
 			
+			<a href="<?php echo the_permalink(); ?>">
 				<div class="photoReal"><?php 
 					if ( has_post_thumbnail() ) // Vérifies qu'une miniature est associée à l'article.
 					{	
-						the_post_thumbnail(array(300,150));
+						the_post_thumbnail(array(220,150));
 					}?>
 				</div>
-				<div class="cont_Tibexav"><?php the_excerpt(); ?></div>
-					
+			</a>
+			<a href="<?php echo the_permalink(); ?>">
+					<div class="cont_Tibexav"><?php the_excerpt(); ?></div>
+			</a>		
 
 			<?php endwhile;
 			posts_nav_link('separator','prelabel','nextlabel');
