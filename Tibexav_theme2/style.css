@@ -165,13 +165,29 @@ div .wpcf7-submit
 }
 
 
-.photoReal
+.photoReal img
 {
+	box-shadow:  3px 3px 3px #999999;
+	border-radius:5%;
 }
 
 
 .cont_Tibexav
 {
+	text-shadow: 4px 4px 8px #999999;
 }
 
+
+#nav_Tibexav
+{
+	grid-column: 2/3;
+	grid-row: 4/5;
+	justify-self: end;
+
+}
+
+#imgDot_Tibexav
+{
+	margin:0.5em 1em;
+}
 

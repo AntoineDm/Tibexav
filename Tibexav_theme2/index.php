@@ -19,7 +19,7 @@
 		$temp_query = $wp_query;
 		
 		$args = array(
-		'post_type'         => 'post',
+		'post_type'	=> 'post',
 		'order' => ASC,
 		'paged' => $paged,
 		'posts_per_page'    => 3,
@@ -42,14 +42,16 @@
 			<a href="<?php echo the_permalink(); ?>">
 					<div class="cont_Tibexav"><?php the_excerpt(); ?></div>
 			</a>		
+			<?php endwhile;?>
 
-			<?php endwhile;
-			posts_nav_link('separator','prelabel','nextlabel');
-			
-			// on reset la query a son état originelle				
+			<div id="nav_Tibexav">
+				<?php posts_nav_link('<img id="imgDot_Tibexav" src="'. get_template_directory_uri() . '/assets/images/dot_Tibexav.jpg" />', '<img src="'. get_template_directory_uri() . '/assets/images/before_Tibexav.jpg" />', '<img src="' .  get_template_directory_uri() . '/assets/images/after_Tibexav.jpg" />');
+					
+			echo "</div>";
+			// on reset la query a son état originel
 			$wp_query = $temp_query;			
-		else :?>
-				déso
+		else:?>
+		 "déso";
 		<?php endif;?>
 
 </div>
