@@ -1,6 +1,8 @@
 
 jQuery(document).ready(function($){
 
+    var templateUrl = template_directory.templateUrl;
+    
     // Au chargement initial   
     redimensionnement($);
      
@@ -28,11 +30,54 @@ jQuery(document).ready(function($){
 
 			
 		});
- 
+
+
+    if ($("#mainAccueil_Tibexav").length)
+    {
+        var vitesse = 2000;
+		$("html").css("overflow","hidden");
+		i = 0;
+        //$.playSound(templateUrl+'/assets/js/rain.mp3');
+
+        setInterval(function()
+            {
+				if (vitesse > 240) vitesse = vitesse/2;
+				
+				//$("#titre_Tibexav p").text(vitesse+ " " + i);
+				fallingRain($,vitesse, templateUrl);
+            },3000);
+    }
 }); 
 
 
 
+
+function fallingRain($,vitS, templateUrl){
+	
+	
+    setInterval(function() {
+        var nbTop = 0 + Math.floor(Math.random() * 100);
+        var nbLeft = 0 + Math.floor(Math.random() * 100);
+        var nbwidth = 10 + Math.floor(Math.random() * 60);
+		var nbRotate = 0 +Math.floor(Math.random() * 270);
+        i++;
+        
+        $("html").append("<img  src='" + templateUrl + "/assets/images/drop_Tibexav.png'  id='raindrop" + i + "' class='raindrop' style='left:" + nbLeft +"%;top:" + nbTop +"%;width:" + nbwidth +"px;transform:rotate("+nbRotate+"deg);' />");
+		
+		//quand il commence à y avoir trop de gouttes
+		if (i > 200)
+		{		
+				var nbId = i-200;
+				var truc = '#raindrop'+ nbId;
+				$(truc).fadeTo(750,0,function()
+				{
+					$(truc).remove();
+				});
+		}
+
+        },vitS);
+
+}
 
 
 
