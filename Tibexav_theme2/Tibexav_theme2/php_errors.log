@@ -1,0 +1,12 @@
+[20-Jun-2018 15:47:03 UTC] PHP Fatal error:  Call to undefined function get_header() in D:\UwAmp\www\wordpress\wp-content\themes\Tibexav_theme2\index.php on line 4
+[20-Jun-2018 15:47:03 UTC] PHP Stack trace:
+[20-Jun-2018 15:47:03 UTC] PHP   1. {main}() D:\UwAmp\www\wordpress\wp-content\themes\Tibexav_theme2\index.php:0
+[20-Jun-2018 15:47:11 UTC] PHP Fatal error:  Call to undefined function get_header() in D:\UwAmp\www\wordpress\wp-content\themes\Tibexav_theme2\index.php on line 4
+[20-Jun-2018 15:47:11 UTC] PHP Stack trace:
+[20-Jun-2018 15:47:11 UTC] PHP   1. {main}() D:\UwAmp\www\wordpress\wp-content\themes\Tibexav_theme2\index.php:0
+[20-Jun-2018 15:47:33 UTC] PHP Fatal error:  Call to undefined function get_header() in D:\UwAmp\www\wordpress\wp-content\themes\Tibexav_theme2\index.php on line 4
+[20-Jun-2018 15:47:33 UTC] PHP Stack trace:
+[20-Jun-2018 15:47:33 UTC] PHP   1. {main}() D:\UwAmp\www\wordpress\wp-content\themes\Tibexav_theme2\index.php:0
+[20-Jun-2018 15:47:37 UTC] PHP Fatal error:  Call to undefined function get_header() in D:\UwAmp\www\wordpress\wp-content\themes\Tibexav_theme2\index.php on line 4
+[20-Jun-2018 15:47:37 UTC] PHP Stack trace:
+[20-Jun-2018 15:47:37 UTC] PHP   1. {main}() D:\UwAmp\www\wordpress\wp-content\themes\Tibexav_theme2\index.php:0

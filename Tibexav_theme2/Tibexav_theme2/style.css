@@ -1,0 +1,231 @@
+
+html { 
+ /*  margin:0;
+  padding:0;
+  background: url(image/bg.jpg) no-repeat center fixed; 
+  -webkit-background-size: cover; /* pour anciens Chrome et Safari 
+  background-size: cover;  version standardisée */ 
+}
+
+img.fullCover
+{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;
+}
+
+img.fullCoverTop
+{
+	min-width:100%;
+}
+
+#div_imgCropTop
+{
+	height:15vh;
+	width:100%;
+	overflow:hidden;
+}
+
+
+
+
+ .titleOnHome
+ {
+ 	font-family: 'Vibur', cursive;
+
+ 	text-align: center;
+	vertical-align: middle;
+
+	margin-left:auto;
+	margin-right:auto;	
+	margin-top:3em;
+	font-size: 7em;
+	font-weight: bolder;
+	color:black;
+	
+}
+
+.Tibexav_menuClass ul
+{
+	list-style:none;
+	display: flex;
+	justify-content: center;
+	padding-left:0;
+}
+
+#mainAccueil_Tibexav
+{
+	text-shadow: 2px 2px 2px #999999;
+}
+
+
+.Tibexav_menuClass li
+{
+	margin : auto 20px auto 20px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.Tibexav_menuClass li:hover
+{
+	text-decoration: underline;
+}
+
+
+
+#social_Tibexav
+{
+	width:15%;
+	float:right;
+	margin-right:15%;
+	margin-top:15%;
+}
+
+.raindrop
+{
+	position: absolute;
+	opacity:0.15;
+	z-index:-2;
+	
+}
+
+
+/************************************ pages*/
+
+.titleOnPosts
+{
+	font-family: 'Vibur', cursive;
+	width:57%;
+	margin-left:auto;
+	margin-right:auto;	
+	margin-top:1.8em;
+	font-size: 3.2em;
+	font-weight: bolder;
+	color:black;
+	
+}
+
+
+
+.titleOnPosts a
+{
+	text-shadow: 2px 2px 2px #999999;
+}
+
+a
+{
+	color: inherit; 
+	text-decoration: none;
+}
+
+
+
+/* *********contact***************/
+
+div .wpcf7
+{
+	font-family: 'Oswald', sans-serif;
+	width:50%;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:1.1em;
+}
+
+div .wpcf7 textarea
+{
+	width:80%;
+}
+div .wpcf7-submit
+{
+	width:20%;
+	height:2.2em;
+	float:right;
+	margin-right:20%;
+}
+
+
+/* ***********************single *********************/
+
+#TibeXav_MainSingle
+{	
+	width:100%;
+	overflow:hidden;
+}
+
+#TibeXav_MainSingle_content
+{
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	padding:5%;
+}
+
+
+.gallery_Tibexav
+{
+	top:-400px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	
+	
+}
+
+
+#libellule
+{
+	position :relative;
+	top:0;
+	left:130%;
+	transition:all 1.5s ease-out;
+	
+}
+
+/************************REals*****************************/
+
+
+
+
+#dv_reals_Tibexav
+{
+	font-family: 'Oswald', sans-serif;
+	position:absolute;
+	top:21%;
+	left:25.75%;
+	width:40%;
+	display:grid;
+	
+	grid-template-rows:30%;	
+	grid-template-columns:20% 80%;
+	grid-column-gap:21.5%;
+	grid-row-gap:6vh;
+	
+}
+
+
+.photoReal img
+{
+	box-shadow:  -3px 3px 3px #999999;
+	border-radius:5%;
+}
+
+
+.cont_Tibexav
+{
+	text-shadow: 4px 4px 8px #999999;
+}
+
+
+#nav_Tibexav
+{
+	grid-column: 2/3;
+	grid-row: 4/5;
+	justify-self: end;
+
+}
+
+#imgDot_Tibexav
+{
+	margin:0.5em 1.5em 0.5em 1em;
+}
+
